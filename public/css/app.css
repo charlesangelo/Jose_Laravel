@@ -1,0 +1,294 @@
+#navbar {
+    width: 100%;
+    height: 40px;
+    background-color: #323232;
+    position: fixed;
+  }
+  
+  nav {
+    display: flex;
+    justify-content:
+      center;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0 35px 0 35px;
+    color: #c3c3c3;
+    padding-top: 12px;
+    font-family: arial;
+    font-size: 14.5px;
+  }
+  
+  
+  
+  #apple-logo {
+    width: 16.5px;
+  }
+  
+  #apple-logo:hover {
+    filter: contrast(200%);
+  }
+  
+  #search-logo {
+    width: 20px;
+  }
+  
+  #search-logo:hover {
+    filter: contrast(900%);
+  }
+  
+  #bag-logo {
+    width: 23px;
+    padding-bott
+  }
+  
+  #bag-logo:hover {
+    filter: contrast(400%);
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #home-page {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #apple-logo-home {
+    width: 50px;
+    margin: 0 auto;
+  }
+  
+  .home-text {
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 1px;
+  }
+  
+  #shop-now {
+    color: #0266cc;
+  }
+  
+  #shop-now:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: -10px;
+    font-family: arial;
+    font-size: 14px;
+    color: blue;
+  }
+  a {
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  #iphone11-image {
+    width: 750px;
+    margin: 0 auto;
+  }
+  
+  @media(max-width: 600px) {
+    #iphone11-image {
+      width: 330px;
+    }
+  }
+  
+  #iphone11pro-page {
+    background-color: black;
+    text-align: center;
+    
+  }
+  
+  #iphone11pro-text {
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffff;
+  }
+  
+  .iphone11pro-subtext {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  .iphone11pro-price-text {
+    color: #ffffff;
+  }
+  
+  .learnmore-buy {
+    font-size: 20px;
+    color: #0266cc;
+    padding-top: 10px;
+  }
+  
+  #iphone11pro-image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 0;
+    align-item: flex-end;
+  }
+  
+  #products-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-row: 1fr 1fr;
+    grid-row-gap: 15px;
+    justify-items: center;
+    margin-top: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #products-page {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  h3 {
+    font-family: arial;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1px;
+  }
+  
+  .product-subtext {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    margin: 0px auto 30px auto;
+  }
+  
+  #mac-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-left: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #mac-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  #mac-product-image {
+    width: 300px;
+  }
+  
+  
+  #ipad-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-right: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #ipad-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  
+  #ipad-product-image {
+    width: 300px;
+  }
+  
+  
+  #iphone-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-left: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #iphone-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  
+  #iphone-product-image {
+    width: 300px;
+  }
+  
+    
+  #watch-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-right: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #watch-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  
+  #watch-product-image {
+    width: 300px;
+  }
+      
+  
+  #airpod-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-left: 16.5px;
+  }
+  
+  @media(max-width: 600px) {
+    #airpod-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  
+  #airpods-product-image {
+    width: 300px;
+  }
+    
+  
+  #applecard-product {
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #fafafa;
+    width: 47.6vw;
+    margin-right: 16px;
+  }
+  
+  @media(max-width: 600px) {
+    #applecard-product {
+      width: 100vw;
+      margin: 0;
+    }
+  }
+  
+  #applecard-product-image {
+    width: 300px;
+  }
